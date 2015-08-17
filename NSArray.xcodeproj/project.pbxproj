@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF115FBC1B7F49C9000CF5D2 /* SendMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = EF115FBB1B7F49C9000CF5D2 /* SendMessage.m */; };
+		EF115FBF1B7F4DFE000CF5D2 /* ArrayC.c in Sources */ = {isa = PBXBuildFile; fileRef = EF115FBD1B7F4DFE000CF5D2 /* ArrayC.c */; };
+		EF457D751B78FFBA001F2198 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF457D741B78FFBA001F2198 /* main.m */; };
+		EF457D801B78FFBB001F2198 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF457D7F1B78FFBB001F2198 /* Images.xcassets */; };
+		EF457D831B78FFBB001F2198 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF457D811B78FFBB001F2198 /* LaunchScreen.xib */; };
+		EF457DA11B790021001F2198 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF457D9A1B790021001F2198 /* AppDelegate.m */; };
+		EF457DA21B790021001F2198 /* BootLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = EF457D9C1B790021001F2198 /* BootLogic.m */; };
+		EF457DA31B790021001F2198 /* ConsoleScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = EF457D9E1B790021001F2198 /* ConsoleScreen.m */; };
+		EF457DA41B790021001F2198 /* MainScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = EF457DA01B790021001F2198 /* MainScreen.m */; };
+		EFC7FC7D1B7E14260024467D /* CreateArray.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC7FC7C1B7E14260024467D /* CreateArray.m */; };
+		EFC7FC7F1B7E214B0024467D /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = EFC7FC7E1B7E214B0024467D /* data.plist */; };
+		EFC7FC831B7E2AC20024467D /* Students.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC7FC821B7E2AC20024467D /* Students.m */; };
+		EFC7FC861B7E2AE80024467D /* CreateArrayHW.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC7FC851B7E2AE80024467D /* CreateArrayHW.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF115FBA1B7F49C8000CF5D2 /* SendMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendMessage.h; sourceTree = "<group>"; };
+		EF115FBB1B7F49C9000CF5D2 /* SendMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendMessage.m; sourceTree = "<group>"; };
+		EF115FBD1B7F4DFE000CF5D2 /* ArrayC.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ArrayC.c; sourceTree = "<group>"; };
+		EF115FBE1B7F4DFE000CF5D2 /* ArrayC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayC.h; sourceTree = "<group>"; };
+		EF457D6F1B78FFBA001F2198 /* NSArray.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSArray.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF457D731B78FFBA001F2198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF457D741B78FFBA001F2198 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF457D7F1B78FFBB001F2198 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF457D821B78FFBB001F2198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EF457D991B790021001F2198 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF457D9A1B790021001F2198 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF457D9B1B790021001F2198 /* BootLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BootLogic.h; sourceTree = "<group>"; };
+		EF457D9C1B790021001F2198 /* BootLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BootLogic.m; sourceTree = "<group>"; };
+		EF457D9D1B790021001F2198 /* ConsoleScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsoleScreen.h; sourceTree = "<group>"; };
+		EF457D9E1B790021001F2198 /* ConsoleScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsoleScreen.m; sourceTree = "<group>"; };
+		EF457D9F1B790021001F2198 /* MainScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreen.h; sourceTree = "<group>"; };
+		EF457DA01B790021001F2198 /* MainScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreen.m; sourceTree = "<group>"; };
+		EFC7FC7B1B7E14260024467D /* CreateArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateArray.h; sourceTree = "<group>"; };
+		EFC7FC7C1B7E14260024467D /* CreateArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateArray.m; sourceTree = "<group>"; };
+		EFC7FC7E1B7E214B0024467D /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		EFC7FC811B7E2AC20024467D /* Students.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Students.h; sourceTree = "<group>"; };
+		EFC7FC821B7E2AC20024467D /* Students.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Students.m; sourceTree = "<group>"; };
+		EFC7FC841B7E2AE80024467D /* CreateArrayHW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateArrayHW.h; sourceTree = "<group>"; };
+		EFC7FC851B7E2AE80024467D /* CreateArrayHW.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateArrayHW.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF457D6C1B78FFBA001F2198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF457D661B78FFBA001F2198 = {
+			isa = PBXGroup;
+			children = (
+				EF457D711B78FFBA001F2198 /* NSArray */,
+				EF457D701B78FFBA001F2198 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF457D701B78FFBA001F2198 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF457D6F1B78FFBA001F2198 /* NSArray.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF457D711B78FFBA001F2198 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				EF457D981B78FFFA001F2198 /* Core */,
+				EFC7FC771B7E0BDF0024467D /* NSArrayKhoiTao */,
+				EFC7FC801B7E2A870024467D /* TruyvancoHW */,
+				EF457D7F1B78FFBB001F2198 /* Images.xcassets */,
+				EF457D811B78FFBB001F2198 /* LaunchScreen.xib */,
+				EF457D721B78FFBA001F2198 /* Supporting Files */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		EF457D721B78FFBA001F2198 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF457D731B78FFBA001F2198 /* Info.plist */,
+				EF457D741B78FFBA001F2198 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF457D981B78FFFA001F2198 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				EF457D991B790021001F2198 /* AppDelegate.h */,
+				EF457D9A1B790021001F2198 /* AppDelegate.m */,
+				EF457D9B1B790021001F2198 /* BootLogic.h */,
+				EF457D9C1B790021001F2198 /* BootLogic.m */,
+				EF457D9D1B790021001F2198 /* ConsoleScreen.h */,
+				EF457D9E1B790021001F2198 /* ConsoleScreen.m */,
+				EF457D9F1B790021001F2198 /* MainScreen.h */,
+				EF457DA01B790021001F2198 /* MainScreen.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		EFC7FC771B7E0BDF0024467D /* NSArrayKhoiTao */ = {
+			isa = PBXGroup;
+			children = (
+				EFC7FC7B1B7E14260024467D /* CreateArray.h */,
+				EFC7FC7C1B7E14260024467D /* CreateArray.m */,
+				EFC7FC7E1B7E214B0024467D /* data.plist */,
+			);
+			name = NSArrayKhoiTao;
+			sourceTree = "<group>";
+		};
+		EFC7FC801B7E2A870024467D /* TruyvancoHW */ = {
+			isa = PBXGroup;
+			children = (
+				EFC7FC811B7E2AC20024467D /* Students.h */,
+				EFC7FC821B7E2AC20024467D /* Students.m */,
+				EFC7FC841B7E2AE80024467D /* CreateArrayHW.h */,
+				EFC7FC851B7E2AE80024467D /* CreateArrayHW.m */,
+				EF115FBA1B7F49C8000CF5D2 /* SendMessage.h */,
+				EF115FBB1B7F49C9000CF5D2 /* SendMessage.m */,
+				EF115FBD1B7F4DFE000CF5D2 /* ArrayC.c */,
+				EF115FBE1B7F4DFE000CF5D2 /* ArrayC.h */,
+			);
+			name = TruyvancoHW;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF457D6E1B78FFBA001F2198 /* NSArray */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF457D921B78FFBB001F2198 /* Build configuration list for PBXNativeTarget "NSArray" */;
+			buildPhases = (
+				EF457D6B1B78FFBA001F2198 /* Sources */,
+				EF457D6C1B78FFBA001F2198 /* Frameworks */,
+				EF457D6D1B78FFBA001F2198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSArray;
+			productName = NSArray;
+			productReference = EF457D6F1B78FFBA001F2198 /* NSArray.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF457D671B78FFBA001F2198 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Văn Tiến Tú";
+				TargetAttributes = {
+					EF457D6E1B78FFBA001F2198 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = EF457D6A1B78FFBA001F2198 /* Build configuration list for PBXProject "NSArray" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF457D661B78FFBA001F2198;
+			productRefGroup = EF457D701B78FFBA001F2198 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF457D6E1B78FFBA001F2198 /* NSArray */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF457D6D1B78FFBA001F2198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC7FC7F1B7E214B0024467D /* data.plist in Resources */,
+				EF457D831B78FFBB001F2198 /* LaunchScreen.xib in Resources */,
+				EF457D801B78FFBB001F2198 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF457D6B1B78FFBA001F2198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF457DA21B790021001F2198 /* BootLogic.m in Sources */,
+				EFC7FC7D1B7E14260024467D /* CreateArray.m in Sources */,
+				EF115FBC1B7F49C9000CF5D2 /* SendMessage.m in Sources */,
+				EF115FBF1B7F4DFE000CF5D2 /* ArrayC.c in Sources */,
+				EF457DA41B790021001F2198 /* MainScreen.m in Sources */,
+				EF457DA31B790021001F2198 /* ConsoleScreen.m in Sources */,
+				EFC7FC861B7E2AE80024467D /* CreateArrayHW.m in Sources */,
+				EF457DA11B790021001F2198 /* AppDelegate.m in Sources */,
+				EF457D751B78FFBA001F2198 /* main.m in Sources */,
+				EFC7FC831B7E2AC20024467D /* Students.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF457D811B78FFBB001F2198 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF457D821B78FFBB001F2198 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF457D901B78FFBB001F2198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF457D911B78FFBB001F2198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF457D931B78FFBB001F2198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NSArray/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF457D941B78FFBB001F2198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NSArray/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF457D6A1B78FFBA001F2198 /* Build configuration list for PBXProject "NSArray" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF457D901B78FFBB001F2198 /* Debug */,
+				EF457D911B78FFBB001F2198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF457D921B78FFBB001F2198 /* Build configuration list for PBXNativeTarget "NSArray" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF457D931B78FFBB001F2198 /* Debug */,
+				EF457D941B78FFBB001F2198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF457D671B78FFBA001F2198 /* Project object */;
+}
