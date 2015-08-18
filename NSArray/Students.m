@@ -12,15 +12,19 @@
 
 -(instancetype) init:(NSString *)fullName and:(NSString *)studentID{
     if(self =[super init]){
-        self.fullName=fullName;
-        self.studentID=studentID;
+        
+        self.fullName = fullName;
+        self.studentID = studentID;
     }
     return self;
 }
 -(BOOL) isEqual:(id)object{
-    if([object isMemberOfClass:[Students class]]){
-        Students* temp=(Students*) object;
-        if([self.fullName isEqual:temp.fullName]&&[self.studentID isEqual: temp.studentID]){
+    if([object isMemberOfClass: [Students class]]){
+        Students* temp = (Students*) object;
+        
+        if([self.fullName isEqual: temp.fullName] &&
+           [self.studentID isEqual: temp.studentID]){
+            
             return  true;
         }else{
             return false;

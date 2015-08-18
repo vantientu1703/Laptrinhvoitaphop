@@ -20,6 +20,9 @@
 		EFC7FC7F1B7E214B0024467D /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = EFC7FC7E1B7E214B0024467D /* data.plist */; };
 		EFC7FC831B7E2AC20024467D /* Students.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC7FC821B7E2AC20024467D /* Students.m */; };
 		EFC7FC861B7E2AE80024467D /* CreateArrayHW.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC7FC851B7E2AE80024467D /* CreateArrayHW.m */; };
+		EFE5721B1B83C12E0099FD61 /* IntegerToString.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE5721A1B83C12E0099FD61 /* IntegerToString.m */; };
+		EFE5721E1B83C6170099FD61 /* CreateCArray.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE5721D1B83C6170099FD61 /* CreateCArray.m */; };
+		EFF1DF8A1B8300F70058D660 /* CArray.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF1DF891B8300F70058D660 /* CArray.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +50,12 @@
 		EFC7FC821B7E2AC20024467D /* Students.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Students.m; sourceTree = "<group>"; };
 		EFC7FC841B7E2AE80024467D /* CreateArrayHW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateArrayHW.h; sourceTree = "<group>"; };
 		EFC7FC851B7E2AE80024467D /* CreateArrayHW.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateArrayHW.m; sourceTree = "<group>"; };
+		EFE572191B83C12E0099FD61 /* IntegerToString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntegerToString.h; sourceTree = "<group>"; };
+		EFE5721A1B83C12E0099FD61 /* IntegerToString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntegerToString.m; sourceTree = "<group>"; };
+		EFE5721C1B83C6170099FD61 /* CreateCArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateCArray.h; sourceTree = "<group>"; };
+		EFE5721D1B83C6170099FD61 /* CreateCArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateCArray.m; sourceTree = "<group>"; };
+		EFF1DF881B8300F70058D660 /* CArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CArray.h; sourceTree = "<group>"; };
+		EFF1DF891B8300F70058D660 /* CArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CArray.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +91,7 @@
 				EF457D981B78FFFA001F2198 /* Core */,
 				EFC7FC771B7E0BDF0024467D /* NSArrayKhoiTao */,
 				EFC7FC801B7E2A870024467D /* TruyvancoHW */,
+				EFF1DF871B8300C00058D660 /* CArrayVsNSArray */,
 				EF457D7F1B78FFBB001F2198 /* Images.xcassets */,
 				EF457D811B78FFBB001F2198 /* LaunchScreen.xib */,
 				EF457D721B78FFBA001F2198 /* Supporting Files */,
@@ -134,8 +144,21 @@
 				EF115FBB1B7F49C9000CF5D2 /* SendMessage.m */,
 				EF115FBD1B7F4DFE000CF5D2 /* ArrayC.c */,
 				EF115FBE1B7F4DFE000CF5D2 /* ArrayC.h */,
+				EFE572191B83C12E0099FD61 /* IntegerToString.h */,
+				EFE5721A1B83C12E0099FD61 /* IntegerToString.m */,
+				EFE5721C1B83C6170099FD61 /* CreateCArray.h */,
+				EFE5721D1B83C6170099FD61 /* CreateCArray.m */,
 			);
 			name = TruyvancoHW;
+			sourceTree = "<group>";
+		};
+		EFF1DF871B8300C00058D660 /* CArrayVsNSArray */ = {
+			isa = PBXGroup;
+			children = (
+				EFF1DF881B8300F70058D660 /* CArray.h */,
+				EFF1DF891B8300F70058D660 /* CArray.m */,
+			);
+			name = CArrayVsNSArray;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF457DA21B790021001F2198 /* BootLogic.m in Sources */,
+				EFE5721E1B83C6170099FD61 /* CreateCArray.m in Sources */,
 				EFC7FC7D1B7E14260024467D /* CreateArray.m in Sources */,
 				EF115FBC1B7F49C9000CF5D2 /* SendMessage.m in Sources */,
 				EF115FBF1B7F4DFE000CF5D2 /* ArrayC.c in Sources */,
@@ -216,6 +240,8 @@
 				EF457DA31B790021001F2198 /* ConsoleScreen.m in Sources */,
 				EFC7FC861B7E2AE80024467D /* CreateArrayHW.m in Sources */,
 				EF457DA11B790021001F2198 /* AppDelegate.m in Sources */,
+				EFE5721B1B83C12E0099FD61 /* IntegerToString.m in Sources */,
+				EFF1DF8A1B8300F70058D660 /* CArray.m in Sources */,
 				EF457D751B78FFBA001F2198 /* main.m in Sources */,
 				EFC7FC831B7E2AC20024467D /* Students.m in Sources */,
 			);

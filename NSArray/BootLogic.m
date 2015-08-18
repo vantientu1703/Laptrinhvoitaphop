@@ -18,7 +18,9 @@
     NSDictionary* basic = @{SECTION: @"NSArray", MENU: @[
                                     @{TITLE: @"CreateArray", CLASS: @"CreateArray"},
                                     @{TITLE: @"Truy van co HW",CLASS: @"CreateArrayHW"},
-                                    @{TITLE: @"SendMessage",CLASS: @"SendMessage"}
+                                    @{TITLE: @"SendMessage",CLASS: @"SendMessage"},
+                                    @{TITLE: @"CArray vs NSArray",CLASS: @"CArray"},
+                                    @{TITLE: @"Integer to String",CLASS: @"CreateCArray"}
                                     
                           ]};
     NSDictionary* intermediate = @{SECTION: @"Demo", MENU: @[
