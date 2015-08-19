@@ -22,81 +22,52 @@
 }
 
 
--(void) array{
-    int a[10];
-    printf("Mang luc dau: ");
-    for(int i = 0; i < 10; i++){
-        a[i] = i ;
-        printf("%d ",a[i]);
-    }
-    printf("\n");
-    int tmp;
-    printf("Mang sau khi sap xep: ");
-    for(int i = 0; i < 10; i++){
-        
-        for(int j = i+1;j < 10; j++){
-            
-            if (a[i] > a[j]) {
-                
-                tmp = a[i];
-                a[i] = a[j];
-                a[j] =tmp;
-            }
-        }
-    }
-    for (int i = 0; i < 10; i++) {
-        printf("%d ",a[i]);
-    }
-    
-}
 -(void) sapxep{
-    int a[8][8],k=64;
+    
+    //NSArray *arr[64];
+    int a[8][8],k=64,b[64],t=0;
     printf("Ma tran A: \n");
     for (int i = 0; i < 8; i++) {
         for (int j = 0; j < 8; j++) {
             
             a[i][j] = k--;
+            b[t]=a[i][j];
+            t++;
             printf("%d ",a[i][j]);
         }
-        printf("\n");
+        //printf("\n");
     }
-    
-    // Sap xep tang dan:
+    printf("\n");
     
     int tmp;
-    
-    for (int i = 0; i < 8; i++) {
-        for (int j = 0; j < 8; j++) {
-            for (int k = j+1 ; k < 8; k++) {
+    for (int i = 0; i < 64; i++) {
+        for (int j = i+1; j < 64; j++) {
+            
+            if (b[i] > b[j]) {
                 
-                if (a[i][j] > a[i][k]) {
-                    
-                    tmp = a[i][j];
-                    a[i][j] = a[i][k];
-                    a[i][k] = tmp;
-                }
+                tmp = b[i];
+                b[i] = b[j];
+                b[j] = tmp;
             }
         }
     }
-    printf("Ma Tran A sau khi sap xem: \n");
-    for (int i = 0; i < 8; i++) {
-        for (int j = 0; j < 8; j++) {
-            
-            printf("%d ",a[i][j]);
-        }
-        printf("\n");
-    }
     
+    for (int i = 0; i < 64; i++) {
+        printf("%d ",b[i]);
+    }
+    printf("\n");
 }
 
 -(void) arrString{
-    NSArray *arrString=@[@"tao",@"dua",@"lon",@"dsa"];
     
-    NSLog(@"%@",arrString[0]);
-    NSString *tmp;
-    for (NSString *currenString in arrString ){
-        
-        NSLog(@"%@",currenString);
-    }
+    NSMutableArray *iostutorialguide = [[NSMutableArray alloc]initWithObjects:@"dao", @"an",@"tung",@"quyen",nil];
+    
+    NSMutableArray *iostutorialguide_sorted = [[NSMutableArray alloc]init];
+    
+    [iostutorialguide_sorted  addObjectsFromArray: [iostutorialguide sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)]];
+    
+    
+    NSLog(@"Sorted Array = %@", iostutorialguide_sorted);
+    
 }
 @end
