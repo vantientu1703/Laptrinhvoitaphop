@@ -16,10 +16,14 @@
 		EF457DA21B790021001F2198 /* BootLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = EF457D9C1B790021001F2198 /* BootLogic.m */; };
 		EF457DA31B790021001F2198 /* ConsoleScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = EF457D9E1B790021001F2198 /* ConsoleScreen.m */; };
 		EF457DA41B790021001F2198 /* MainScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = EF457DA01B790021001F2198 /* MainScreen.m */; };
+		EF89C2ED1B90FDBA0022AD0B /* playlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF89C2EC1B90FDBA0022AD0B /* playlist.plist */; };
+		EF89C2F31B90FFF20022AD0B /* CreateDictinary.m in Sources */ = {isa = PBXBuildFile; fileRef = EF89C2F21B90FFF20022AD0B /* CreateDictinary.m */; };
 		EFC7FC7D1B7E14260024467D /* CreateArray.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC7FC7C1B7E14260024467D /* CreateArray.m */; };
 		EFC7FC7F1B7E214B0024467D /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = EFC7FC7E1B7E214B0024467D /* data.plist */; };
 		EFC7FC831B7E2AC20024467D /* Students.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC7FC821B7E2AC20024467D /* Students.m */; };
 		EFC7FC861B7E2AE80024467D /* CreateArrayHW.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC7FC851B7E2AE80024467D /* CreateArrayHW.m */; };
+		EFDECBAB1B98C7F60085367C /* NSMutableArray+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDECBAA1B98C7F60085367C /* NSMutableArray+Extend.m */; };
+		EFDECBB11B98C98E0085367C /* NSMutableArrayCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDECBB01B98C98E0085367C /* NSMutableArrayCategory.m */; };
 		EFE5721B1B83C12E0099FD61 /* IntegerToString.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE5721A1B83C12E0099FD61 /* IntegerToString.m */; };
 		EFE5721E1B83C6170099FD61 /* CreateCArray.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE5721D1B83C6170099FD61 /* CreateCArray.m */; };
 		EFF1DF8A1B8300F70058D660 /* CArray.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF1DF891B8300F70058D660 /* CArray.m */; };
@@ -43,6 +47,9 @@
 		EF457D9E1B790021001F2198 /* ConsoleScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsoleScreen.m; sourceTree = "<group>"; };
 		EF457D9F1B790021001F2198 /* MainScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreen.h; sourceTree = "<group>"; };
 		EF457DA01B790021001F2198 /* MainScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreen.m; sourceTree = "<group>"; };
+		EF89C2EC1B90FDBA0022AD0B /* playlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = playlist.plist; sourceTree = "<group>"; };
+		EF89C2F11B90FFF20022AD0B /* CreateDictinary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateDictinary.h; sourceTree = "<group>"; };
+		EF89C2F21B90FFF20022AD0B /* CreateDictinary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateDictinary.m; sourceTree = "<group>"; };
 		EFC7FC7B1B7E14260024467D /* CreateArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateArray.h; sourceTree = "<group>"; };
 		EFC7FC7C1B7E14260024467D /* CreateArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateArray.m; sourceTree = "<group>"; };
 		EFC7FC7E1B7E214B0024467D /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
@@ -50,6 +57,10 @@
 		EFC7FC821B7E2AC20024467D /* Students.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Students.m; sourceTree = "<group>"; };
 		EFC7FC841B7E2AE80024467D /* CreateArrayHW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateArrayHW.h; sourceTree = "<group>"; };
 		EFC7FC851B7E2AE80024467D /* CreateArrayHW.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateArrayHW.m; sourceTree = "<group>"; };
+		EFDECBA91B98C7F60085367C /* NSMutableArray+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Extend.h"; sourceTree = "<group>"; };
+		EFDECBAA1B98C7F60085367C /* NSMutableArray+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Extend.m"; sourceTree = "<group>"; };
+		EFDECBAF1B98C98E0085367C /* NSMutableArrayCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSMutableArrayCategory.h; sourceTree = "<group>"; };
+		EFDECBB01B98C98E0085367C /* NSMutableArrayCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSMutableArrayCategory.m; sourceTree = "<group>"; };
 		EFE572191B83C12E0099FD61 /* IntegerToString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntegerToString.h; sourceTree = "<group>"; };
 		EFE5721A1B83C12E0099FD61 /* IntegerToString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntegerToString.m; sourceTree = "<group>"; };
 		EFE5721C1B83C6170099FD61 /* CreateCArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateCArray.h; sourceTree = "<group>"; };
@@ -69,6 +80,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF21606A1B9226770008F1FA /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
 		EF457D661B78FFBA001F2198 = {
 			isa = PBXGroup;
 			children = (
@@ -88,10 +106,13 @@
 		EF457D711B78FFBA001F2198 /* NSArray */ = {
 			isa = PBXGroup;
 			children = (
+				EF21606A1B9226770008F1FA /* New Group */,
 				EF457D981B78FFFA001F2198 /* Core */,
 				EFC7FC771B7E0BDF0024467D /* NSArrayKhoiTao */,
 				EFC7FC801B7E2A870024467D /* TruyvancoHW */,
 				EFF1DF871B8300C00058D660 /* CArrayVsNSArray */,
+				EF89C2EB1B90FD800022AD0B /* NSDictionary */,
+				EFDECBA81B98C7C60085367C /* NSMutableArray */,
 				EF457D7F1B78FFBB001F2198 /* Images.xcassets */,
 				EF457D811B78FFBB001F2198 /* LaunchScreen.xib */,
 				EF457D721B78FFBA001F2198 /* Supporting Files */,
@@ -123,6 +144,16 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
+		EF89C2EB1B90FD800022AD0B /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				EF89C2EC1B90FDBA0022AD0B /* playlist.plist */,
+				EF89C2F11B90FFF20022AD0B /* CreateDictinary.h */,
+				EF89C2F21B90FFF20022AD0B /* CreateDictinary.m */,
+			);
+			name = NSDictionary;
+			sourceTree = "<group>";
+		};
 		EFC7FC771B7E0BDF0024467D /* NSArrayKhoiTao */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +181,17 @@
 				EFE5721D1B83C6170099FD61 /* CreateCArray.m */,
 			);
 			name = TruyvancoHW;
+			sourceTree = "<group>";
+		};
+		EFDECBA81B98C7C60085367C /* NSMutableArray */ = {
+			isa = PBXGroup;
+			children = (
+				EFDECBA91B98C7F60085367C /* NSMutableArray+Extend.h */,
+				EFDECBAA1B98C7F60085367C /* NSMutableArray+Extend.m */,
+				EFDECBAF1B98C98E0085367C /* NSMutableArrayCategory.h */,
+				EFDECBB01B98C98E0085367C /* NSMutableArrayCategory.m */,
+			);
+			name = NSMutableArray;
 			sourceTree = "<group>";
 		};
 		EFF1DF871B8300C00058D660 /* CArrayVsNSArray */ = {
@@ -220,6 +262,7 @@
 			files = (
 				EFC7FC7F1B7E214B0024467D /* data.plist in Resources */,
 				EF457D831B78FFBB001F2198 /* LaunchScreen.xib in Resources */,
+				EF89C2ED1B90FDBA0022AD0B /* playlist.plist in Resources */,
 				EF457D801B78FFBB001F2198 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,14 +275,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF457DA21B790021001F2198 /* BootLogic.m in Sources */,
+				EF89C2F31B90FFF20022AD0B /* CreateDictinary.m in Sources */,
 				EFE5721E1B83C6170099FD61 /* CreateCArray.m in Sources */,
 				EFC7FC7D1B7E14260024467D /* CreateArray.m in Sources */,
 				EF115FBC1B7F49C9000CF5D2 /* SendMessage.m in Sources */,
 				EF115FBF1B7F4DFE000CF5D2 /* ArrayC.c in Sources */,
+				EFDECBAB1B98C7F60085367C /* NSMutableArray+Extend.m in Sources */,
 				EF457DA41B790021001F2198 /* MainScreen.m in Sources */,
 				EF457DA31B790021001F2198 /* ConsoleScreen.m in Sources */,
 				EFC7FC861B7E2AE80024467D /* CreateArrayHW.m in Sources */,
 				EF457DA11B790021001F2198 /* AppDelegate.m in Sources */,
+				EFDECBB11B98C98E0085367C /* NSMutableArrayCategory.m in Sources */,
 				EFE5721B1B83C12E0099FD61 /* IntegerToString.m in Sources */,
 				EFF1DF8A1B8300F70058D660 /* CArray.m in Sources */,
 				EF457D751B78FFBA001F2198 /* main.m in Sources */,

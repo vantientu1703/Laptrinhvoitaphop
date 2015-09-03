@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>f</key>
+	<dict/>
+	<key>e</key>
+	<dict/>
+	<key>d</key>
+	<dict/>
+	<key>c</key>
+	<dict/>
+	<key>b</key>
+	<dict>
+		<key>best</key>
+		<string>tot</string>
+		<key>bad</key>
+		<string>toi te</string>
+	</dict>
+	<key>a</key>
+	<dict>
+		<key>animal</key>
+		<string>dong vat</string>
+		<key>atmosphere</key>
+		<string>không khí</string>
+	</dict>
+</dict>
+</plist>

@@ -20,7 +20,9 @@
                                     @{TITLE: @"Truy van co HW",CLASS: @"CreateArrayHW"},
                                     @{TITLE: @"SendMessage",CLASS: @"SendMessage"},
                                     @{TITLE: @"CArray vs NSArray",CLASS: @"CArray"},
-                                    @{TITLE: @"Integer to String",CLASS: @"CreateCArray"}
+                                    @{TITLE: @"Integer to String",CLASS: @"CreateCArray"},
+                                    @{TITLE: @"NSDictionary",CLASS: @"CreateDictinary"},
+                                    @{TITLE: @"NSMutableArray+Extend",CLASS: @"NSMutableArrayCategory"}
                                     
                           ]};
     NSDictionary* intermediate = @{SECTION: @"Demo", MENU: @[

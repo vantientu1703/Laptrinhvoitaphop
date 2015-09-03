@@ -35,6 +35,19 @@
     }else{
         NSLog(@"We find");
     }
+    
+    NSUInteger foundIndex = [arr indexOfObjectPassingTest:^BOOL(id obj, NSUInteger idx, BOOL *stop) {
+        
+        Students *student = (Students*) obj;
+        if ([student.fullName isEqualToString:@"Pitroipa"]) {
+            
+            return true;
+        }else{
+            return  false;
+        }
+    }];
+    
+    NSLog(@"Found at %lu",foundIndex);
 }
 
 

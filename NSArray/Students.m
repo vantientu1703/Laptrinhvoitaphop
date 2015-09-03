@@ -36,7 +36,7 @@
 }
 
 -(void) sayYourname{
-    NSLog(@" My name is %@",self.fullName);
+    NSLog(@"%@ - %@",self.fullName,self.studentID);
 }
 
 @end
